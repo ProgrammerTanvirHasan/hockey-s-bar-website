@@ -30,7 +30,7 @@
     <!-- navigation part start -->
     <header>
 <nav>
-   <section class="container mx-auto mt-8">
+   <section class="container mx-auto mt-8 lg:px-12 px-4">
     <div class="navbar bg-base-100 ">
         <div class="navbar-start">
           <div class="dropdown">
@@ -67,7 +67,41 @@
 
     </header>
     <main>
+        
+        <section class="container mx-auto mt-8 lg:px-12 px-4  lg:relative ">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="img/cup.png" class="w-full" />
+                  <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle text-white bg-black">❮</a> 
+                    <a href="#slide2" class="btn btn-circle text-white bg-black" >❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="img/cup.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle text-white bg-black" >❮</a> 
+                    <a href="#slide1" class="btn btn-circle text-white bg-black">❯</a>
+                  </div>
+                </div> 
+                  </div> 
+                <!-- batch section -->
+               <div class=" hidden lg:flex lg:absolute lg:-mt-52 lg: ml-20 justify-end text-black">
+                <div class="w-1/2 text-white bg-black p-8 rounded-xl ">
+                    <h2 class="text-base font-extrabold pb-4">Meet all the heroes from the field</h2>
+                    <p class="font-medium">A hockey's player,like a real hero.In this field,in this section, every-one maintain his heroic rules. they fight for our country with there skil.</p>
+                </div> 
+                
+               </div>
 
+                </section>
+               <div class="container mx-auto px-4">
+                <div class="  mt-8  relative lg:hidden bg-black text-white rounded-xl">
+                    <h2 class="text-base font-extrabold pb-4">Meet all the heroes from the field</h2>
+                    <p class="font-medium">A hockey's player,like a real hero.In this field,in this section, every-one maintain his heroic rules. they fight for our country with there skil.</p>
+                   </div>
+               </div>
+            <!-- banner section end -->
     </main>
     <footer>
 
